@@ -17,9 +17,7 @@
  */
 
 /*
- * Only works in a Blogger gadget (xml).
- * Requires Google Libraries API to be loaded before this script
- * http://code.google.com/apis/libraries/devguide.html
+ * Requires jQuery to be loaded before this script
  * Then this script should be loaded with
  * gadgets.util.registerOnLoadHandler(function(){ikaika(__MODULE_ID__)});
  */
