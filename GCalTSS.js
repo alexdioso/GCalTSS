@@ -101,6 +101,8 @@ var ikaika = (function(my) {
     function datesCallback(dates) {
         var start = dates.startTime;
         var end = dates.endTime;
+        end.hour = 23;
+        end.minute = 59;
         google.calendar.read.getEvents(eventsCallback, "selected", start, end);
     }
 
